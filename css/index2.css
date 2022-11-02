@@ -3,20 +3,20 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 body{
     overflow-x:hidden;
-    width: 100%;
-    height: 100%;
+
     /* Created with https://www.css-gradient.com */
-background: #2C01FF;
+background:  #2C01FF;
 background: -webkit-linear-gradient(bottom left, #2C01FF, #BB2ECB);
 background: -moz-linear-gradient(bottom left, #2C01FF, #BB2ECB);
-background: linear-gradient(to top right, #2C01FF, #BB2ECB);
+background: linear-gradient(to top right, #2C01FF, #BB2ECB); 
     /* background-image: url(/img/gradient.png); */
     font-family: 'Roboto Mono', monospace;
+    background-attachment: fixed;
     
+     
 }
 nav{
     margin-left: auto;
@@ -36,15 +36,16 @@ nav li{
     display: inline-block;
     vertical-align: top;
 }
+
+#active{
+    border: 1px solid #fff;
+}
 nav a{
     color: rgb(255, 255, 255);
     padding: 5px 10px;
     text-decoration: none;
     border: 1px solid transparent;
     transition: 0.3s;
-}
-#active{
-    border: 1px solid #fff;
 }
 nav a:hover{
     border: 1px solid #fff;
@@ -93,18 +94,6 @@ nav label:hover{
 
 .contacts{
     padding-top: 20px;
-}
-#down-arrow{
-
-    position: relative;
-    margin: 0 auto;
-    top: 600px;
-    left: 50%;
-}
-#arrow{
-    color: #fff;
-
-
 }
 
 
