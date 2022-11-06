@@ -99,7 +99,11 @@ nav label:hover{
     position: relative;
     margin: 0 auto;
     top: 600px;
+<<<<<<< HEAD
     left: 43%;
+=======
+    left: 50%;
+>>>>>>> parent of 9a7ef21 (correction of the down arrow)
 }
 #arrow{
     color: #fff;
