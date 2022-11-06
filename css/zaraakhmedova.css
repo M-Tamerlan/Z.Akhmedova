@@ -99,10 +99,11 @@ nav label:hover{
     position: relative;
     margin: 0 auto;
     top: 600px;
-    left: 45%;
+    left: 43%;
 }
 #arrow{
     color: #fff;
+    margin: 0 auto;
 
 
 }
